@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+}
+.footer{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 43.5%;
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;}
+    
+    #text{
+        margin-top: 7%;
+        margin-left: 5%;
+    }
+    .main{
+        background-color: white;
+        height: 500px;
+        width: 500px;
+        float: left;
+        margin-left: 5%;
+        margin-top: 5%;
+       box-shadow: 0px 0px 10px black;
+        overflow: auto;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    li{
+        list-style-type: none;
+        font-weight: 900;
+    }
+    li::after{
+        content: "🖱️";
+        font-size: 2em;
+        margin-left: 20px;
+    }
+    .aside{
+        float: left;
+        margin-left: 5%;
+        width: 700px;
+        height: 600px;
+        
+    }
+    .box{
+        height: 400px;
+        width: 300px;
+        border: 2px solid black;
+        background-image: url(https://media.gcflearnfree.org/content/5e177f3142c4ab332036e63b_01_09_2020/mouse-tutorial.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 10%;
+        animation: bounce 2s infinite ease-in-out;
+        box-shadow: 2px 2px 10px black;
+        background-color: hsl(248, 100%, 2%);
+        border-radius: 50%;
+    }
+    @keyframes bounce{
+        0%{transform: translateY(0);}
+        40%{transform: translateY(-30px);}
+        60%{transform: translateY(-100px);}
+    }

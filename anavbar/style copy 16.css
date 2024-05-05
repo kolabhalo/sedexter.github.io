@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+}
+.footer{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 2%;
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;}
+    
+.container{
+    margin-top: 1%;
+}
+.text{
+    margin-top: 7%;
+    text-align: center;
+}
+#img1{
+   float: left;
+   margin-left: 3%;
+   height: 150px;
+   width: 150px;
+    }
+.systemunit a{
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 50px;
+
+}
+*.container img{
+    position: absolute;
+   
+}
+.container a{
+    font-weight: none;
+    font-size: smaller;
+    color: hsl(240, 100%, 73%);
+}
+.container a:hover{
+   color: hsl(240, 99%, 55%);
+}
+li{
+    margin-left: 15%;
+    font-weight: 900;
+}
+dd{
+    margin-left: 15%;
+}
+#img2{
+    float: left;
+    margin-left: 3%;
+    height: 150px;
+    width: 150px;
+     }
+ .monitor a{
+     display: inline-block;
+     justify-content: space-around;
+     margin-left: 50px;
+    }
+    #img3{
+        float: left;
+        margin-left: 3%;
+        height: 150px;
+        width: 150px;
+         }
+     .mouse a{
+         display: inline-block;
+         justify-content: space-around;
+         margin-left: 50px;
+        }
+        #img4{
+            float: left;
+            margin-left: 3%;
+            height: 150px;
+            width: 150px;
+             }
+         .speaker a{
+             display: inline-block;
+             justify-content: space-around;
+             margin-left: 50px;
+            }
+            #img5{
+                float: left;
+                margin-left: 3%;
+                height: 150px;
+                width: 150px;
+                 }
+             .headphones a{
+                 display: inline-block;
+                 justify-content: space-around;
+                 margin-left: 50px;
+                } 
+                #img6{
+                    float: left;
+                    margin-left: 3%;
+                    height: 150px;
+                    width: 150px;
+                     }
+                 .printer a{
+                     display: inline-block;
+                     justify-content: space-around;
+                     margin-left: 50px;
+                    }    
+                    #img7{
+                        float: left;
+                        margin-left: 3%;
+                        height: 150px;
+                        width: 150px;
+                         }
+                     .keyboard a{
+                         display: inline-block;
+                         justify-content: space-around;
+                         margin-left: 50px;
+                        }   
+                        #img8{
+                            float: left;
+                            margin-left: 3%;
+                            height: 150px;
+                            width: 150px;
+                             }
+                         .disc a{
+                             display: inline-block;
+                             justify-content: space-around;
+                             margin-left: 50px;
+                            }   
+                
+ img:hover{
+    box-shadow: 0px 0px 15px black;
+ }                           
+    

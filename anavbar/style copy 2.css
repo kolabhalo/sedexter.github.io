@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+   
+    
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+    
+
+
+ 
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+    
+
+.container{
+    margin-top: 10%;
+    text-align: center;
+    
+}
+.content{
+    height: 100%;
+    width: 30%;
+    border: 2px solid black;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#list li::before{
+    content: "✔️";
+    
+}
+#h1{
+    margin-right: 40%;
+}
+#list li{
+    font-size: 1.2em;
+
+}
+#list{
+    list-style-type: none;
+}
+.pic{
+    height: 100%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    background-color: rgb(223, 255, 175);
+    border: 10px inset white;
+    filter: grayscale(100%);
+
+
+
+    
+}
+.pic:hover{
+    filter: none;
+}
+#img1{
+    height: 200px;
+    width: 300px;
+    float: inline-start;
+}
+#img2{
+    height: 150px;
+    width: 250px;
+    float: right;
+}
+#img3{
+    height: 150px;
+    width: 200px;
+    float:inline-end;
+    margin-right: 20%;
+}
+#img4{
+    width: 180px;
+    height: 135px;
+    float: left;
+    margin-left: 10%;
+
+}
+#img5{
+    width: 200px;
+    height:190px ;
+    float: right;
+    margin-right: 40%;
+}
+#img6{
+    width: 150px;
+    height: 170px;
+    float: left;
+}
+#img7{
+    width: 200px;
+    height: 180px;
+    float: right;
+}
+.contain img{
+    position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+    width: 200px;
+    height: 150px ;
+    float: left;
+    
+}
+.bottom-left {
+    position:absolute;
+    margin-top: 44%;
+    font-size: 20px;
+}
+#img8{
+    width: 300px;
+    height: 140x;
+}
+.aside{
+    
+    height: 100;
+    width: 5%;
+    float: left;
+    justify-content: center;
+    
+}
+.footer{
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 58%;
+}
+#milo{
+    height: 600px;
+    width: 200px;
+    margin-left: 120% ;
+    
+}
+h4{
+    text-align: center;
+    margin-left: 120% ;
+    font-size: 2em;
+    
+    
+}
+#list{
+    padding: 5%;
+}
+
+
+
+

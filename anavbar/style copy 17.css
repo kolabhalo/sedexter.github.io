@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+}
+.footer{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 43.5%;
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;}
+
+    .text{
+        margin-top: 7%;
+        margin-left: 10%;
+    }
+    
+    .article{
+        margin-top: 5%;
+        height: 400px;
+        width: 500px;
+        float: left;
+        margin-left: 5%;
+        overflow: scroll;
+        box-shadow: 0px 0px 15px black;
+        border-radius: 15px;
+        background-color: white;
+    }
+
+    .list li{
+        padding: 20px;
+        font-weight: 900;
+    }
+    .list dd{
+        padding: 10px;
+    }
+    li::after{
+        content: "✉️";
+        box-shadow: 0px 0px 10px rgb(126, 188, 255);
+        border-radius: 15px;
+        font-size: 2em;
+        margin-left: 5%;
+        
+    }
+    .aside{
+        width: 50%;
+        margin-left: 10%;
+        height: 500px;
+        float: left;
+       
+    }
+    #img1{
+        height: 200px;
+        width: 200px;
+        top: 50;
+        left: 50;
+        transition: 2s;
+
+    }
+    #img1:hover{
+        box-shadow: 0px 0px 10px  hsl(0, 1%, 64%);
+        background-color: hsl(0, 0%, 84%);
+        border-radius: 15px;
+    }
+   
+    
+    

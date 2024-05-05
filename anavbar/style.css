@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(90deg,hsl(178, 100%, 85%),hsl(221, 100%, 72%));
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400%;
+    animation: gradient 10s alternate-reverse infinite;
+    
+    
+    
+
+}
+@keyframes gradient{
+    0%{
+        background-position: left;
+        
+    }
+    
+    100%{
+        background-position: right;
+    } 
+}
+#img1{
+    float: left;
+    width: 270%;
+    margin-left: -5%;
+    opacity: 0.4;
+    height: 200px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+    
+
+
+ 
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    margin-top: 20%;
+    
+}
+h1 a{
+    
+    text-decoration:none;
+    font-size: 2em;
+    display: flex;
+    position: absolute;
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    transition: 2s;
+
+  
+   
+}
+h2{
+    margin-bottom: 10%;
+    color: white;
+    font-size: 3em;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+                       
+}
+h1 a:hover{
+   
+    font-size: 2.5em ;
+    text-decoration: underline rgb(0, 0, 0);
+    
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+   background: -webkit-linear-gradient( 90deg,#1effac, #039fad);
+   -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+    
+   
+}
+.article{
+    margin-top: 10%
+
+}
+

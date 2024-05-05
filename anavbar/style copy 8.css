@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+
+   
+}
+.footer{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 57%;
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;}
+
+.section{
+    height: 170%;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px black;
+    
+}
+#text{
+    margin-top: 7%;
+    margin-left: 14%;
+}
+.article{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 5%;
+}
+
+#img1{
+    height: 300px;
+    width: 350px;
+    float: left;
+    transform: rotate(30deg);
+    transition: 3s ease;
+}
+#img1:hover{
+    transform: rotateY(-360deg);
+    box-shadow: 0px 0px 20px black;
+}
+#img2{
+    height: 300px;
+    width: 270px;
+    float: right;
+    transform:rotateY(60deg) ;
+    transition: 2s ease-in-out;
+    margin-top: 25%;
+}
+#img2:hover{
+    width:700px ;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+
+}
+li::before{
+    content: "🧑🏻‍💻";
+    font-size: 2em;
+}
+li{
+    list-style-type: none;
+    font-weight: 900;
+}
+.list{
+    padding: 10px;
+}

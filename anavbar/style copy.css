@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+    
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+    
+
+
+ 
+}
+.footer{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 20px;
+    transition: .6s linear;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+    margin-top: 20%;
+    
+}
+h1 a{
+    margin-left: 5%;
+    text-decoration:none;
+    font-size: 2em;
+    display: flex;
+    position: absolute;
+    padding: 20px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+h2{
+    margin-left: 0%;
+    color: white;
+    font-size: 3em;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+h1 a:hover{
+    font-size: 3em ;
+    text-decoration: underline white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+   
+}
+#list{
+    margin-top: 7%;
+    text-align: center;
+
+}
+.container{
+    margin-top: 3%;
+}
+
+#img2{
+    float: left;
+    margin-left: 10px;
+    outline: none;
+}
+#img2:hover{
+    box-shadow:0px 5px 10px black;
+    background-color:rgb(93, 233, 172) ;
+}
+.google{ 
+    margin-left: 10%;
+
+}
+.googled{
+    margin-left: 10%;
+    
+
+}
+.google a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#img1{
+    float: left;
+    margin-left: 10px;
+}
+#img1:hover{
+    box-shadow:0px 5px 10px black;
+    background-color:rgb(93, 233, 172) ;
+}
+.ppt{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.powerpoint{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.powerpoint a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+    
+
+#img3{
+    float: left;
+    margin-left: 10px;
+}
+#img3:hover{
+    box-shadow:0px 5px 10px black;
+    background-color:rgb(93, 233, 172) ;
+}
+.word{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.word1{
+    margin-left: 10%;
+  
+}
+.word a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.java {
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.java1{
+    margin-left: 10%;
+}
+.java a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.linux{
+    margin-left: 10%;
+    margin-top: 40px;
+}
+.linux1{
+    margin-left: 10%;
+}
+.linux a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.windows{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.windows1{
+    margin-left: 10%;
+}
+.windows a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.mcafee{
+    margin-left: 10%;
+    margin-top: 30px;
+
+}
+.mcafee1{
+    margin-left: 10%;
+}
+.mcafee a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.gmail{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.gmail1{
+    margin-left: 10%;
+}
+.gmail a{
+    display:inline-block;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.container a{
+    font-weight: none;
+    font-size: smaller;
+    color: hsl(240, 100%, 73%);
+}
+.container a:hover{
+   color: hsl(240, 99%, 55%);
+}
+li{
+    margin-left: 15%;
+    font-weight: 900;
+}
+dd{
+    margin-left: 15%;
+}

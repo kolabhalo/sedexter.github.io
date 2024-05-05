@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+}
+.footer{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 43.5%;
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;}
+
+    #text{
+        margin-top: 7%;
+        margin-left: 5%;
+    }
+    .main{
+        width: 500px;
+        height: 500px;
+        float: left;
+        margin-left: 3%;
+        overflow: auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px black;
+    }
+    li{
+        list-style-type: none;
+        font-weight: 900;
+    }
+    li::before{
+        content: "🖥️";
+        font-size: 2em;
+        margin-right: 20px;
+    }
+    .aside{
+        width: 50%;
+        height: 50%;
+        float: left;
+       
+        margin-left: 5%;
+    }
+    .aside h1{
+        margin-top: 20%;
+        margin-left: 15%;
+        font-size: 5.5em;
+        display: flex;
+        opacity: 0;
+        float: left;
+        justify-content: center;
+        border: 15px solid rgb(138, 138, 255);
+        border-radius: 15px;
+        padding: 25px;
+        background-color: aqua;
+        transition: 3s ease-in-out;
+        
+    }
+    .aside h1:hover{
+        opacity: 1;
+        border: 15px dotted rgb(138, 138, 255);
+        
+    }
+    aside a{
+        text-decoration: none;
+         -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+       color: -webkit-linear-gradient(#f33e44, #30d5e4);
+    
+    }
+    #move{
+        
+        margin-left: 50%;
+    }
+    #move::after{
+        content: "😎";
+        font-size: 2em;
+    }
+       
+        
+       
+    

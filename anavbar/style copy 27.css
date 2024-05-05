@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, poppins;
+}
+body{
+
+    background:linear-gradient(to right,hsl(58, 100%, 77%) ,rgb(130, 255, 166));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+
+}
+html{
+    animation: smurfcat 5s linear infinite;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+}
+.footer{
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 43.5%;
+}
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;
+    position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;}
+
+    #text{
+        margin-top: 7%;
+        margin-left: 7%;
+    }
+    .main{
+        float: left;
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 500px;
+        height: 500px;
+        overflow: auto ;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px violet;
+        padding: 20px;
+        background-color: white;
+        
+    }
+    .aside{
+        border-radius: 25px;
+        background-size:400% ;
+        float: left;
+        width: 600px;
+        height: 500px;
+        box-shadow: 0px 0px 15px rgb(255, 158, 174);
+        margin-left: 10%;
+       background: -webkit-linear-gradient(rgb(253, 162, 255),rgb(255, 131, 201));
+       animation: gradient 10s ease infinite;
+    }
+    .hp{
+        margin-top: 20%;
+        margin-left: 25%;
+        width: 300px;
+        height: 300px;
+        float: left;
+        box-shadow: 0px 0px 10px rgb(118, 0, 118);
+        background-image: url(https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/MQTQ3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1687660671363);
+        background-size: contain;
+        border-radius: 20px;
+        transition: ease-in-out;
+    }
+    .hp:hover{
+        box-shadow: 0px 0px 30px rgb(118, 0, 118);
+        transform: scale(1.1,1.1);
+    }
+    li::after{
+        content: "🎧";
+        font-size: 2em;
+        margin-left: 20px;
+
+    }
+    li{
+        font-weight: 900;
+        list-style-type: none;
+    }
+    
+@keyframes gradient {
+	0% {
+		background:-webkit-linear-gradient(rgb(253, 162, 255),rgb(255, 131, 201));
+	}
+	50% {
+		background:-webkit-linear-gradient(45deg,rgb(253, 162, 255),rgb(255, 131, 201));
+	}
+	100% {
+		background:-webkit-linear-gradient(-45deg,rgb(253, 162, 255),rgb(255, 131, 201));
+	}
+}

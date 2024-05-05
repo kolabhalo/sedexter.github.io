@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background:seagreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+    animation: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   
+}
+
+
+
+    
+
+.logo{
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    
+}
+.logo::after{
+    content: "🖥️";
+    float: left;
+    position: absolute;
+    margin-left: 10px;
+    
+}
+.logo:hover{
+    filter: drop-shadow(3px 5px 2px black) ;
+}
+.navbar a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 40px;
+    padding:25px;
+    border-radius: 15px;
+    transition: .6s linear;position: relative;
+    margin-left: 20px;
+    
+   
+    
+
+}
+.navbar a:hover{
+    text-decoration: underline;
+    background-color: rgb(93, 233, 172);
+    color: black;
+    padding: 30px;
+    border-radius: 15px;}
+section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/5d/08/26/5d08267522db6f2755f98552fb0d595f.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+
+    
+
+
+.login-box{
+    margin-top: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    margin: none; 
+    backdrop-filter: blur(4px);
+
+   
+
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    background: -webkit-linear-gradient(#f80c04, #ebfa1b);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.input-box{
+    position: relative;
+    width: 310px;
+    margin: 30px 0;
+    border-bottom: 2px solid rgb(255, 254, 254);
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: white;
+    pointer-events: none;
+    font-size: 1.5em;
+    
+}
+.input-box input:focus~label,
+.input-box input:valid~label {
+top:-20px;
+}
+.input-box input{
+    width: 100%;
+    height: 30px ;
+
+}
+.input-box .icon{
+    position: absolute;
+    right: 5px;
+    top:5px;
+}
+.remember-forgot{
+    position: relative;
+    right: 10px;
+    font-size: 1.3em;
+    
+    color: #fff;
+}
+.remember-forgot label input{
+    padding: 3em;
+    font-size: 1em;
+    margin-left: 40px;
+   
+    
+}
+.remember-forgot a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;   
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background: #ded4d4;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: black;
+    font-weight: 500;
+}
+.register-link{
+   font-size: 1.5em;
+   text-align: center;
+   color: #fff;
+}
+.register-link .icon1{
+ color: rgb(255, 255, 255);
+ display: inline-block;
+ background-color:rgb(17, 77, 206) ;
+ border-radius: 10px;
+ margin: 20px;
+ padding: 15px;
+ border: 2px solid rgb(0, 0, 0);
+ 
+
+}
+
+.register-link .icon2{
+    color:rgb(66, 232, 88);
+ 
+    display: inline-block;
+    background-color:rgb(236, 239, 244) ;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.register-link .icon3{
+    color: rgb(35, 207, 216);
+    display:inline-block;
+    background-color:rgb(243, 245, 251) ;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+
+.register-link a:hover{
+    font-size: 1.5em;
+}
+.register-link p:hover{
+    text-decoration: underline;
+}
